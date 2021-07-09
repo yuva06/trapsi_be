@@ -88,12 +88,12 @@ WSGI_APPLICATION = 'trapsi_be.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'trapsibe',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dfhetp92eit7va',
+        'USER': 'henudjgugfcwix',
+        'PASSWORD':'ee5096fcd02a47de11f05096478dc7dd3fcc86ac95fe2ad9ef15c5bceec0e8db',
+        'HOST': 'ec2-107-21-10-179.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
