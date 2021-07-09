@@ -1,0 +1,1 @@
+web: gunicorn trapsi_be.wsgi

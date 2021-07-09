@@ -19,7 +19,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('builder/', admin.site.urls),
     path('connect/',include('trapsi.api.urls')),
     path('export/', include("admin_export_action.urls",namespace="admin_export_action")),
     path('summernote/',include("django_summernote.urls")),
